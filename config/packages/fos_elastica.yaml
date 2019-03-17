@@ -1,0 +1,38 @@
+fos_elastica:
+    clients:
+        default: { host: localhost, port: 9200 }
+    indexes:
+        catalog:
+            finder: ~
+            settings:
+                index:
+                    analysis:
+                        analyzer:
+                            name_analyzer:
+                                type: custom
+                                tokenizer: keyword
+                                filter: [standard, lowercase, asciifolding, elision]
+            types:
+                catalog:
+                    properties:
+                        id: ~
+                        name: ~
+                        output: ~
+                        models:
+                            type: nested
+                            properties:
+                                id:
+                                    type: integer
+                                name:
+                                    type: text
+                        name_suggest:
+                            type: completion
+                            analyzer: name_analyzer
+                            search_analyzer: name_analyzer
+                    persistence:
+                        driver: orm
+                        model: App\Entity\Catalog
+                        provider:
+                            query_builder_method: createIsActiveQueryBuilder
+                        listener: ~
+                        finder: ~
