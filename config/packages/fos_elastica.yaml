@@ -12,13 +12,31 @@ fos_elastica:
                                 type: custom
                                 tokenizer: keyword
                                 filter: [standard, lowercase, asciifolding, elision]
+                            # Самым первым в analyzer срабатывает char_filter он предворительно подготавливает строку (в данном случае удоляется всё кроме цифр и букв)
+                            char_filter:
+                                symbol_char_filter:
+                                    pattern: "[^A-Za-z0-9]"
+                                    type: pattern_replace
+                                    replacement: ""
+                            # Вторым в analyzer срабатывает tokenizer он уже разбивает строку по выбранному алгоритму
+                            tokenizer:
+                                ng_tokenizer:
+                                    type: nGram
+                                    min_gram: 1
+                                    max_gram: 10
+                            # Третим в analyzer срабатывает filter
+                            filter:
+                                symbol_filter:
+                                    type: pattern_replace
+                                    pattern: "[^A-Za-z0-9]"
+                                    replacement: ""
             types:
                 catalog:
                     properties:
                         id: ~
                         name: ~
                         output: ~
-                        models:
+                        marks:
                             type: nested
                             properties:
                                 id:

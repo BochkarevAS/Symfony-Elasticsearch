@@ -24,12 +24,11 @@ class CatalogElasticaRepository extends EntityRepository
             $bool->addMust($qb->query()->bool()->addMust($qb->query()->match('name', $catalog->name)));
         }
 
-        if (null !== $catalog->brand) {
+        if (!empty($catalog->brand)) {
             $bool->addMust($qb->query()->bool()->addMust($qb->query()->term(['brand.id' => $catalog->brand->getId()])));
         }
 
         if (!empty($catalog->marks)) {
-
             $bool->addMust($qb->query()->bool()->addMust(
                 $qb->query()->nested()->setPath('marks')->setQuery($qb->query()->bool()->addMust($qb->query()->term(['marks.id' => $catalog->marks->getId()])))
             ));

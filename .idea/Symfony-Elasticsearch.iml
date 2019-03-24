@@ -44,6 +44,7 @@
           <root url="file://$MODULE_DIR$/../BLO/vendor/enqueue/sqs" />
           <root url="file://$MODULE_DIR$/../BLO/vendor/fabpot/goutte" />
           <root url="file://$MODULE_DIR$/../BLO/vendor/fig/link-util" />
+          <root url="file://$MODULE_DIR$/../BLO/vendor/firebase/php-jwt" />
           <root url="file://$MODULE_DIR$/../BLO/vendor/fresh/doctrine-enum-bundle" />
           <root url="file://$MODULE_DIR$/../BLO/vendor/friendsofsymfony/ckeditor-bundle" />
           <root url="file://$MODULE_DIR$/../BLO/vendor/friendsofsymfony/elastica-bundle" />
@@ -52,6 +53,9 @@
           <root url="file://$MODULE_DIR$/../BLO/vendor/friendsofsymfony/user-bundle" />
           <root url="file://$MODULE_DIR$/../BLO/vendor/fzaninotto/faker" />
           <root url="file://$MODULE_DIR$/../BLO/vendor/gedmo/doctrine-extensions" />
+          <root url="file://$MODULE_DIR$/../BLO/vendor/google/apiclient" />
+          <root url="file://$MODULE_DIR$/../BLO/vendor/google/apiclient-services" />
+          <root url="file://$MODULE_DIR$/../BLO/vendor/google/auth" />
           <root url="file://$MODULE_DIR$/../BLO/vendor/guzzlehttp/guzzle" />
           <root url="file://$MODULE_DIR$/../BLO/vendor/guzzlehttp/promises" />
           <root url="file://$MODULE_DIR$/../BLO/vendor/guzzlehttp/psr7" />
@@ -100,6 +104,7 @@
           <root url="file://$MODULE_DIR$/../BLO/vendor/phpdocumentor/type-resolver" />
           <root url="file://$MODULE_DIR$/../BLO/vendor/phpoffice/phpspreadsheet" />
           <root url="file://$MODULE_DIR$/../BLO/vendor/phpoption/phpoption" />
+          <root url="file://$MODULE_DIR$/../BLO/vendor/phpseclib/phpseclib" />
           <root url="file://$MODULE_DIR$/../BLO/vendor/psr/cache" />
           <root url="file://$MODULE_DIR$/../BLO/vendor/psr/container" />
           <root url="file://$MODULE_DIR$/../BLO/vendor/psr/http-message" />
@@ -220,6 +225,7 @@
           <root url="file://$MODULE_DIR$/../BLO/vendor/enqueue/sqs" />
           <root url="file://$MODULE_DIR$/../BLO/vendor/fabpot/goutte" />
           <root url="file://$MODULE_DIR$/../BLO/vendor/fig/link-util" />
+          <root url="file://$MODULE_DIR$/../BLO/vendor/firebase/php-jwt" />
           <root url="file://$MODULE_DIR$/../BLO/vendor/fresh/doctrine-enum-bundle" />
           <root url="file://$MODULE_DIR$/../BLO/vendor/friendsofsymfony/ckeditor-bundle" />
           <root url="file://$MODULE_DIR$/../BLO/vendor/friendsofsymfony/elastica-bundle" />
@@ -228,6 +234,9 @@
           <root url="file://$MODULE_DIR$/../BLO/vendor/friendsofsymfony/user-bundle" />
           <root url="file://$MODULE_DIR$/../BLO/vendor/fzaninotto/faker" />
           <root url="file://$MODULE_DIR$/../BLO/vendor/gedmo/doctrine-extensions" />
+          <root url="file://$MODULE_DIR$/../BLO/vendor/google/apiclient" />
+          <root url="file://$MODULE_DIR$/../BLO/vendor/google/apiclient-services" />
+          <root url="file://$MODULE_DIR$/../BLO/vendor/google/auth" />
           <root url="file://$MODULE_DIR$/../BLO/vendor/guzzlehttp/guzzle" />
           <root url="file://$MODULE_DIR$/../BLO/vendor/guzzlehttp/promises" />
           <root url="file://$MODULE_DIR$/../BLO/vendor/guzzlehttp/psr7" />
@@ -276,6 +285,7 @@
           <root url="file://$MODULE_DIR$/../BLO/vendor/phpdocumentor/type-resolver" />
           <root url="file://$MODULE_DIR$/../BLO/vendor/phpoffice/phpspreadsheet" />
           <root url="file://$MODULE_DIR$/../BLO/vendor/phpoption/phpoption" />
+          <root url="file://$MODULE_DIR$/../BLO/vendor/phpseclib/phpseclib" />
           <root url="file://$MODULE_DIR$/../BLO/vendor/psr/cache" />
           <root url="file://$MODULE_DIR$/../BLO/vendor/psr/container" />
           <root url="file://$MODULE_DIR$/../BLO/vendor/psr/http-message" />
